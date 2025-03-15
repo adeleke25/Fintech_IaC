@@ -1,0 +1,11 @@
+# Ignore Terraform state files
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock
+
+# Ignore the Terraform Provider EXE and init files
+*.exe
+*.terraform.lock.hcl
+
+# Ignore the .terraform folder
+.terraform/
